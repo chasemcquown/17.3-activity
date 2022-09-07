@@ -2,46 +2,61 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#myVideo {
+    width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 nav {
-    background-color: gray;
-    border-bottom: 5px;
-    border-color: white;
-    border-style: solid;
+    text-align: center;
 }
 
 .nav-elements {
     display: inline-block;
-    background-color: black;
     padding: 15px;
     color: white;
+    border: 5px;
+    border-color: rgb(69, 179, 199);
+    border-style: solid;
 }
 
 .left-div {
     float: left;
     width: 29%;
-    height: 200px;
-    background-color: aqua;
+    height: auto;
 }
 
 .stella-container {
     text-align: center;
     padding: 10px;
-    border-bottom: 5px;
-    border-color: white;
+    border: 5px;
+    border-color: red;
     border-style: solid;
-    background-color: beige;
+    margin-top: 20px;
+    color: white;
 }
 
 .stats-container {
-    background-color: blanchedalmond;
+    color: white;
     padding: 10px;
+    border: 5px;
+    border: 5px;
+    border-color: red;
+    border-style: solid;
+    margin-top: 10px;
 }
 
 .right-div {
     float: left;
     width: 71%;
-    height: 200px;
-    background-color: bisque;
+    height: auto;
 }
 
 .stella-img {
@@ -57,20 +72,20 @@ nav {
 }
 
 .container-1 {
-    background-color: aquamarine;
+    color: white;
     padding: 10px;
     border: 5px;
     border-style: solid;
-    border-color: white;
+    border-color: red;
     margin: 20px;
 }
 
 .container-2 {
-    background-color: rgb(25, 153, 110);
+    color: white;
     padding: 10px;
     border: 5px;
     border-style: solid;
-    border-color: white;
+    border-color: red;
     text-align: center;
     margin: 20px;
 }
